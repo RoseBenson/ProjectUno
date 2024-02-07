@@ -1,3 +1,54 @@
+/* This is the sizing for the title */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is the main overall color */
+body {
+    background-color: hsl(234, 100%, 88%);
+}
+
+/* This shows the color for the background of the first paragraph and the font and all headers alike */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This styles for the header h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 3vw; /* Relative font size */
+}
+
+/* This styles for the SEO text inside the header h1 */
+.header h1 .seo {
+    color: #a9b7f5;
+}
+
+/* This styles for the header navigation */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw; /* Relative font size */
+}
+
+/* This styles for the header navigation list */
+.header div ul {
+    list-style-type: none;
+}
+
+/* This styles for the header navigation list items */
+.header div ul li {
+    display: inline-block;
+    margin-left: 2vw; /* Relative margin */
+}
+
 /* This styles for floating elements on the left */
 .float-left {
     float: left;
